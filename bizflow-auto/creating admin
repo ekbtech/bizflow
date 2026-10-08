@@ -1,0 +1,10 @@
+$env:ADMIN_NAME = "Evans Bett"
+$env:ADMIN_USERNAME = "ekbtech"
+$env:ADMIN_EMAIL = "your-admin-email@example.com"
+$env:ADMIN_PASSWORD = "your-private-password"
+npm run db:create-admin
+Remove-Item Env:ADMIN_NAME, Env:ADMIN_USERNAME, Env:ADMIN_EMAIL, Env:ADMIN_PASSWORD
+
+resetin password
+
+npm run db:reset-admin-password
