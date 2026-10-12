@@ -72,7 +72,7 @@ export function AuthForm({ mode }: AuthFormProps) {
   }
 
   return (
-    <form className="space-y-4" onSubmit={handleSubmit}>
+    <form className="space-y-4" method="post" onSubmit={handleSubmit}>
       {mode === "register" && (
         <>
           <div>
